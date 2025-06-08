@@ -52,7 +52,8 @@ makefile:
 OBJ:=$(patsubst %.c,%.o,$(wildcard *.c))
 
 slist.exe: $(OBJ)
-     gcc -o $@ $^
+
+gcc -o $@ $^
         
 clean:
 
