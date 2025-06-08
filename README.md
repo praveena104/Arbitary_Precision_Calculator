@@ -50,9 +50,13 @@ makefile is created to generate .o files. It is compiled using command called ma
 makefile:
 
 OBJ:=$(patsubst %.c,%.o,$(wildcard *.c))
+
 slist.exe: $(OBJ)
+
         gcc -o $@ $^
+        
 clean:
+
         rm *.exe *.o
 
 
