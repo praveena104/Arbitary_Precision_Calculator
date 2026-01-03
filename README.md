@@ -1,4 +1,4 @@
-# Arbitary_Precision_Calculator--->Data_structures & Algorithms
+# Arbitrary_Precision_Calculator--->Data_structures & Algorithms
 
 This project implements an Arbitrary Precision Calculator (APC) that performs mathematical operations on integers of any size, limited only by system memory.In contrast to built-in arithmetic in ALUs (Arithmetic Logic Units) which is restricted by data types like int or long, this calculator supports big-number arithmetic by representing numbers as linked lists and implementing custom algorithms for arithmetic operations.
 This type of arithmetic is crucial in fields like cryptography, especially in public-key systems such as RSA, which operate on very large integers.
